@@ -17,6 +17,12 @@ const favicon = require("serve-favicon");
 // https://www.npmjs.com/package/path
 const path = require("path");
 
+// Session requirement
+const session = require("express-session")
+
+// Mongo store
+const MongoStore = require("connect-mongo")
+
 // Middleware configuration
 module.exports = (app) => {
   // In development environment the app logs
