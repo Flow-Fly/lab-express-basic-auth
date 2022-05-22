@@ -43,6 +43,15 @@ router.post("/signup", async (req, res) => {
     }
 })
 
+
+/**
+ * Rest of the routing/views is not finished, can't give you any feedback on those
+ * Hope you'll find the time to review some of the login process :)
+ * If not please remember that this part is usually not for the Junior dev
+ * but it's great to have a good understanding of it ! 
+ * 
+ */
+
 router.get('/login', (req, res, next) => {
     res.render('auth/login');
   })

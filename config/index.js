@@ -42,4 +42,9 @@ module.exports = (app) => {
 
   // Handles access to the favicon
   app.use(favicon(path.join(__dirname, "..", "public", "images", "favicon.ico")));
+  /**
+   * We should create the session at some point here, without a session you
+   * Can't save any informations regarding the user on your website or send him
+   * cookies.
+   */
 };
